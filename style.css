@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.header {
+    background-color: red;
+    padding: 10px 20px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.menu-btn, .member-btn {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.search-bar input {
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+.contact-info span {
+    margin: 0 10px;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.login-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+.login-logo {
+    width: 50px;
+    margin-bottom: 10px;
+}
+.social-login button {
+    margin: 5px;
+    padding: 10px;
+    width: 120px;
+    border: none;
+    cursor: pointer;
+}
+.google-btn { background: #db4437; color: white; }
+.zalo-btn { background: #0068ff; color: white; }
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-btn {
+    background: red;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+.forgot-password {
+    text-align: right;
+    margin-bottom: 10px;
+}
+.forgot-password a, p a {
+    color: red;
+    text-decoration: none;
+}
